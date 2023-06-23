@@ -9,6 +9,7 @@ def make_bearer_token(r):
 
 def get_search_results(search_query, max_results=100, next_token=False):
     """
+    Getting search results
     """
     url = "https://api.twitter.com/2/tweets/search/recent"
     query_params = {
